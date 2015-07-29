@@ -1,0 +1,23 @@
+.bp-cover-photo {
+	background-repeat: no-repeat;
+	background-position: top;
+/*	-webkit-box-shadow: 0 20px 30px 0 rgba(166,173,179,1);
+	box-shadow: 0 20px 30px 0 rgba(166,173,179,1);*/
+}
+
+.bp-page-title,
+
+#cover-photo-wrapper {
+	margin-bottom: 48px;
+}
+
+.jcrop-holder { float: left; margin: 0 20px 20px 0; text-align: left; }
+#cover-image-crop-pane { width: 1380px; height: 315px; overflow: hidden; margin-left: -10px; }
+#cover-image-crop-submit { margin: 20px 0; }
+.jcrop-holder img,
+#cover-image-crop-pane img,
+#cover-image-upload-form img,
+#create-group-form img,
+#group-settings-form img { border: none !important; max-width: none !important; }
+#submit-crop { clear: both; }
+input#cover-photo-upload.settings-input { font-size: 12px; }
